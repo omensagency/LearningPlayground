@@ -1,3 +1,7 @@
+
+favorite_genre = "Jazz"
+favorite_team = "Utah " + favorite_genre
+
 a = 800000
 b = 30
 
@@ -6,6 +10,7 @@ print(a / b)
 a = "cat"
 
 print(a)
+print("Also I really like...", favorite_genre)
 
 my_number = 29
 
@@ -30,6 +35,7 @@ print(
 "double quotes\n"
 "double quotes with space"
 )
+print("double or nothing that this team wins:", favorite_team)
 
 print(len("hello world"))
 
@@ -41,4 +47,5 @@ print(mystring[4:-6:2])
 
 print(mystring[::-1])
 
+print("also don't forget...", favorite_team[5:])
 #Section 3:17 10-28
