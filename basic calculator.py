@@ -2,6 +2,13 @@
 favorite_genre = "Jazz"
 favorite_team = "Utah " + favorite_genre
 
+for i in range(5):
+    print(favorite_genre)
+    if i == 0:
+        print("hooray!")
+    if i == 4:
+        print("yay!")
+
 a = 800000
 b = 30
 
